@@ -3,14 +3,17 @@
 <package format="3">
   <name>my_package</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="ros@todo.todo">ros</maintainer>
+  <description>My First Package</description>
+  <maintainer email="ros@todo.todo">s1124631</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
+
+  <test_depend>demo_nodes_cpp</test_depend>
+  <test_depend>demo_nodes_py</test_depend>
 
   <export>
     <build_type>ament_cmake</build_type>
